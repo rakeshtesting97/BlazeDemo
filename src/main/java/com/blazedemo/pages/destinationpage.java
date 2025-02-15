@@ -14,7 +14,7 @@ public class destinationpage extends testbase{
 	@FindBy(xpath = "//a[text()='Travel The World']")
 	WebElement travelTheWorld;
 	
-	
+	//
 	
 	public destinationpage() throws IOException {
 		PageFactory.initElements(driver, this);
